@@ -375,10 +375,6 @@ parseOutputs = [
 
 satOutput = ["is not satisfiable", "is satisfiable", "may or may not be satisfiable"]
 
-# print(adjust("(Q(a,x)>EyP(b,d))"))
-
-# print(satOutput[sat([["(ExP(x,x)^Ax(-P(x,x)>P(x,x)))"]])])
-
 firstline = f.readline()
 
 PARSE = False
